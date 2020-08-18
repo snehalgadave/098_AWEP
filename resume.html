@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin: 0px 120px 0px 120px;
+      }
+      .container1 {
+        display: flex;
+        background-color: purple;
+        border: 1px solid yellow;
+        height: 350px;
+        width: 100%;
+        /*  flex: 2;*/
+      }
+      .container2 {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(138, 91, 3);
+        border: 1px solid red;
+        height: 600px;
+      }
+      .subcontainer3 {
+        display: flex;
+        flex-direction: column;
+        background-color: wheat;
+        flex: 1;
+        border: 1px solid red;
+      }
+      .subcontainer4 {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        background-color: springgreen;
+        border: 1px solid red;
+        text-align: center;
+      }
+      .box1 {
+        border: 2px solid red;
+        height: 150px;
+        padding: 15px;
+      }
+      .para1 {
+        border: 1px solid red;
+        height: 200px;
+      }
+      .subcontainer1 {
+        border: 1px solid red;
+        flex: 1;
+        display: flex;
+        background-color: sandybrown;
+        /*   flex-direction: column; */
+      }
+      .subcontainer2 {
+        display: flex;
+        flex: 3;
+        border: 1px solid red;
+
+        /*    flex-direction: column; */
+      }
+      .img {
+        height: 150px;
+        width: 150px;
+        border: 1px solid red;
+        border-radius: 150px;
+        margin-left: 15%;
+        position: absolute;
+        margin-top: 70px;
+      }
+      .img img {
+        height: 100%;
+        border-radius: 150px;
+        width: 100%;
+        object-fit: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container1">
+        <div class="subcontainer1">
+          <div class="img">
+            <img src="1.png.jpg" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="subcontainer2"
+          style="align-items: center; justify-content: center;"
+        >
+          <h1>snehal gadave</h1>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="subcontainer3">
+          <div class="box1">
+            <p style="font-weight: bold;">Born</p>
+            <p>15 march 1997</p>
+          </div>
+          <div class="box1">
+            <p style="font-weight: bold;">Contact</p>
+            <p>8806044953</p>
+          </div>
+          <div class="box1">
+            <p style="font-weight: bold;">Languages</p>
+            <p>English,Marathi,Hindi</p>
+          </div>
+          <div class="box1">
+            <p style="font-weight: bold;">Interest</p>
+            <p>Playing Cricket,Nightouts with buddies,Trevelling</p>
+          </div>
+          <div class="box1">
+            <p style="font-weight: bold;">Travel</p>
+            <p>Goa,Hampi</p>
+          </div>
+        </div>
+
+        <div class="subcontainer4">
+          <div class="para1" style="padding-top: 20px;">
+            Lorem ipsum dolor sit amet.
+          </div>
+          <div class="para1" style="padding-top: 20px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </div>
+          <div class="para1" style="padding-top: 20px;">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+          <div class="para1" style="padding-top: 20px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
